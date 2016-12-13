@@ -18,7 +18,7 @@ use, and gave it some specifics that might help it along. (see a093236).
 Despite these changes, it still thinks the best possible program is no
 program at all.
 
-In #4df66de2fa we added the boolean and char stacks, which finally led
+In 4df66de2fa we added the boolean and char stacks, which finally led
 to the creation of some non-empty programs. Unfortunately, these programs are
 still awful - consisting primarily of the "boolean_empty" operation repeated
 between 1 and 3 times; effectivley just guessing true or false... 
