@@ -15,6 +15,13 @@ go with 1000 generations. In the end, every solution it found was
 worse than simply guessing *true* or *false*. In an attempt to improve
 our results we narrowed down the number of operators our solution can
 use, and gave it some specifics that might help it along. (see a093236).
+Despite these changes, it still thinks the best possible program is no
+program at all.
+
+In #4df66de2fa we added the boolean and char stacks, which finally led
+to the creation of some non-empty programs. Unfortunately, these programs are
+still awful - consisting primarily of the "boolean_empty" operation repeated
+between 1 and 3 times; effectivley just guessing true or false... 
 
 ## Final Results
 We're never done.
