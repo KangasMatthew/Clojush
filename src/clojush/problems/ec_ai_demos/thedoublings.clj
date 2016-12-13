@@ -73,4 +73,5 @@
   {:error-function all-errors
    :atom-generators atom-generators
    :population-size 500
+   :max-generations 300
    })
