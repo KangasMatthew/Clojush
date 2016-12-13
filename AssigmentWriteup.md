@@ -14,11 +14,11 @@ Initially, we gave the program every string operation and let it
 go with 1000 generations. In the end, every solution it found was
 worse than simply guessing *true* or *false*. In an attempt to improve
 our results we narrowed down the number of operators our solution can
-use, and gave it some specifics that might help it along. (see a093236).
+use, and gave it some specifics that might help it along. (see [a093236](https://github.com/KangasMatthew/Clojush/commit/a093236)).
 Despite these changes, it still thinks the best possible program is no
 program at all.
 
-In 4df66de2fa we added the boolean and char stacks, which finally led
+In [4df66de2fa](https://github.com/KangasMatthew/Clojush/commit/4df66de2fa72777a6ce4e1e015c56969df00224b) we added the boolean and char stacks, which finally led
 to the creation of some non-empty programs. Unfortunately, these programs are
 still awful - consisting primarily of the "boolean_empty" operation repeated
 between 1 and 3 times; effectivley just guessing true or false... 
