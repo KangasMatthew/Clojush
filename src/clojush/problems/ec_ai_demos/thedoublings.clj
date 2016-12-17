@@ -62,8 +62,8 @@
   (concat
     ; Include all the instructions that act on integers and booleans
     ; Could have :exec here, but I just am limiting things to exec-if
-    (registered-for-stacks [:string :boolean :char])
-    (list 'integer_div 2)
+    (registered-for-stacks [:string])
+    (list 'integer_div 2 'string_take 'string_length 'string_contains)
     ; A bunch of random numbers in case that's useful.
     ; (list (fn [] (lrand-int 100)))
     ; The two input
