@@ -33,5 +33,12 @@ results of this run were pretty dissapointing, with the best program
 it could come up with being an empty one.
 
 ## Final Results
-We're never done.
+Despite several attempts, we could not seem to evolve a program that even
+came slightly close to being an actual solution to our chosen problem. This
+is likely due, for the most part, to our lack of familiarity with the
+available instructions and operations in Clojush. Additionally, the problem
+we choose is difficult to evolve a program for because it has no gradient
+of success - that is, a program either succeeds or fails with no indication
+of "how badly" it failed.
+
 
