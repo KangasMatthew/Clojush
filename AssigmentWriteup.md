@@ -24,7 +24,7 @@ still awful - consisting primarily of the "boolean_empty" operation repeated
 between 1 and 3 times; effectivley just guessing true or false. The Lexicase
 Best Program here in the final generation was: (boolean_empty, boolean_xor).
 
-In [8007392befe88c](https://github.com/KangasMatthew/Clojush/commit/a093236) we removed our registration for the boolean and char)
+In [8007392befe88c](https://github.com/KangasMatthew/Clojush/commit/a093236) we removed our registration for the boolean and char
 stacks, adding "string_take", "string_length", and "string_contains"
 specifically. Interestingly enough, documentation for the Clojush project
 lists "string_contained" as a string instruction and not "string_contains",
