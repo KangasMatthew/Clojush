@@ -21,7 +21,8 @@ program at all.
 In #4df66de2fa we added the boolean and char stacks, which finally led
 to the creation of some non-empty programs. Unfortunately, these programs are
 still awful - consisting primarily of the "boolean_empty" operation repeated
-between 1 and 3 times; effectivley just guessing true or false... 
+between 1 and 3 times; effectivley just guessing true or false. The Lexicase
+Best Program here in the final generation was: (boolean_empty, boolean_xor).
 
 ## Final Results
 We're never done.
