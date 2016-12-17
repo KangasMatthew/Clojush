@@ -32,6 +32,10 @@ despite the fact that "string_contained", apparently, doesn't exist. The
 results of this run were pretty dissapointing, with the best program
 it could come up with being an empty one.
 
+In [c4a7d03c582b8](https://github.com/KangasMatthew/Clojush/commit/a093236) we added back the boolean stack, which gives us a new
+"Lexicase Best Program" of (string_empty boolean_empty). Still not correct,
+by any definition of the word, but more exciting than an empty program.
+
 ## Final Results
 Despite several attempts, we could not seem to evolve a program that even
 came slightly close to being an actual solution to our chosen problem. This
